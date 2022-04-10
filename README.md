@@ -108,7 +108,7 @@ services:
     container_name: ferdi-server
     environment:
       - NODE_ENV=development
-      - EXTERNAL_DOMAIN=<ferdi-serverdomain>	 
+      - EXTERNAL_DOMAIN=<ferdi-serverdomain>
       - DB_CONNECTION=<database>
       - DB_HOST=<yourdbhost>
       - DB_PORT=<yourdbPORT>
